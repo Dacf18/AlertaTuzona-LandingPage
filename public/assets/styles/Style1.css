@@ -3,6 +3,18 @@ html{
     font: normal 18px sans-serif;
     color: #555555;
 }
+img {
+    object-fit: fill;
+}
+.logo{
+    width: 70px;
+    height: 60px;
+    margin-right: 100px;
+}
+.mapaimg{
+    width: 600px;
+    height: 400px;
+}
 a{
     text-decoration: none;
     color: inherit;
@@ -21,6 +33,7 @@ a.btn{
 }
 a.navbtn{
     color: white;
+    padding: 20px;
 }
 .navbar{
     background-color: #bf2121;
