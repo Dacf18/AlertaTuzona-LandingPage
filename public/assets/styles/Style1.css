@@ -45,8 +45,9 @@ hr /*este es la linea separadora*/
 section {
     display: flex;
     flex-direction: column;
-    padding: 125px 75px;
+
     /*align-items: center;
+    padding: 125px 75px;
     */
 }
 @media (max-width: 1000px) {
@@ -92,39 +93,37 @@ ul.grid {
     justify-content: center;
 }
 /*=======================================================================Seccion Mapa Seguridad*/
-section .li1{
+.mapa-muestra{
+    padding-top: 125px;
+    padding-bottom: 20px;
+}
+.mapa-muestra h1{
+    padding: 20px 0;
     width: 475px;
 }
-section .li2{
+.mapaimg{
+    object-fit: contain;
     width: 687px;
+    height: 381px;
 }
-
 .mapa-muestra .map li{
     padding: 0 30px;
     flex-basis: 33%;
 }
-.mapa-muestra .map li .mapaimg{
-
-    height: 381px;
-}
-/*.mapa-muestra .map li{
-    padding: 20px;
-    height: 381px;
-}
-.mapa-muestra .map li.large{
-    flex-basis: 60%;
-    background-clip: content-box;
-    background-size: cover;
-    background-position: center;
-
-}
 @media (max-width: 1000px) {
-
-    .mapa-muestra .map li.large {
+    .mapa-muestra .map li {
+        flex-basis: 70%;
+        margin-bottom: 65px;
+    }
+    .mapa-muestra .map li:last-child {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 600px) {
+    .mapa-muestra .map li {
         flex-basis: 100%;
     }
-
-}*/
+}
 /*=======================================================================Section DESCUBRE*/
 .descubre{
     padding: 20px 0;
