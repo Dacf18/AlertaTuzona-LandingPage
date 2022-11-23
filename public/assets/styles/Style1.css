@@ -1,55 +1,194 @@
-/*estilos comunes*/
-html{
+/*estilos comunes importados*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+/*estilos generales*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
     font: normal 16px sans-serif;
-    color: #555555;
+    color: #555;
+    scroll-behavior: smooth !important;
 }
-img {
-    object-fit: fill;
+ul, nav {
+    list-style: none;
 }
-.logo{
-    width: 70px;
-    height: 60px;
-    margin-right: 100px;
-}
-.mapaimg{
-    width: 600px;
-    height: 400px;
-}
-a{
+a {
     text-decoration: none;
     color: inherit;
     cursor: pointer;
-    opacity: 0.8;
+    opacity: 0.9;
 }
-a:hover{
+a:hover {
     opacity: 1;
 }
-a.btn{
-    background-color: #bbbf00;
-    color: white;
-    border-radius: 4px;
-    font-weight: 400;
-    padding: 10px;
+a.btn {
+    color: #fff;
+    border-radius: 2px;
+    background-color: #BBBF00;
+    font-weight: 200;
+    text-align: center;
 }
-a.navbtn{
-    color: white;
-    padding: 20px;
-}
-.navbar{
-    background-color: #bf2121;
-    padding: 25px;
-    margin:0;
-}
-.links{
-    background-color: #bf2121;
-    padding: 25px;
-}
-hr{
-    width: 100%;
-    height: 20px;
-    background-color: #bf2121;
+hr /*este es la linea separadora*/
+{
+    width: 150px;
+    height: 2px;
+    background-color: #FA5858;
     border: 0;
+    margin-bottom: 80px;
 }
-h1{
-    font-size: 48px;
+/*Estilos comunes para las sections*/
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 125px 100px;
+}
+@media (max-width: 1000px) {
+
+    section {
+        padding: 100px 50px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    section {
+        padding: 80px 30px;
+    }
+
+}
+section h3.title {
+    color: #414a4f;
+    text-transform: capitalize;
+    font: bold 32px 'Open Sans', sans-serif;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+section p {
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 35px;
+    padding: 0 20px;
+    line-height: 2;
+}
+
+
+ul.grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*Estilos comunes para los Header*/
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background-color: #BF2121;
+    padding: 35px 100px 0;
+}
+
+header h2 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav li {
+    margin: 0 15px;
+}
+
+header nav li:first-child {
+    margin-left: 0;
+}
+
+header nav li:last-child {
+    margin-right: 0;
+}
+header nav a.btnTop{
+    color: #fff;
+    border-radius: 2px;
+    background-color: #BBBF00;
+    font-weight: 700;
+    text-align: center;
+    opacity: 1;
+}
+
+@media (max-width: 1000px) {
+    header {
+        padding: 20px 50px;
+    }
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+
+    header h2 {
+        margin-bottom: 15px;
+    }
+}
+
+/* Estilos comunes para el footer*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-color: #414a4f;
+    padding: 60px 0;
+}
+
+footer ul {
+    display: flex;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+footer ul li {
+    margin: 0 8px;
+}
+
+footer ul li:first-child {
+    margin-left: 0;
+}
+
+footer ul li:last-child {
+    margin-right: 0;
+}
+
+footer p {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 10px;
+}
+
+footer p a {
+    color: #fff;
+}
+
+@media (max-width: 700px) {
+
+    footer {
+        padding: 80px 15px;
+    }
+
 }
