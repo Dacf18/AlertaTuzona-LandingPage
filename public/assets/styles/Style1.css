@@ -184,6 +184,26 @@ ul.grid {
     padding: 0 30px;
     flex-basis: 33%;
 }
+/*===========================================================================COMO FUNCIONA*/
+.comofunciona{
+    padding: 135px 0px;
+}
+.comofunciona .funciones li{
+    list-style: disc;
+    color: dodgerblue;
+}
+.comofunciona .p1{
+    text-align: center;
+}
+.comofunciona .pp1{
+    font-size: 20px;text-align: center;
+    max-width: none;
+}
+.comofunciona .grid li{
+    font-size: 20px;
+    padding: 0 30px;
+    flex-basis: 33%;
+}
 /*=======================================================================Estilos comunes para los Header*/
 header {
     position: absolute;
