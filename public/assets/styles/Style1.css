@@ -204,6 +204,33 @@ ul.grid {
     padding: 0 30px;
     flex-basis: 33%;
 }
+/*=======================================================================================AYUDA*/
+.ayuda{
+    padding: 135px 0px;
+}
+.ayuda .faq li{
+    list-style: disc;
+    text-decoration: underline;
+}
+.ayuda .p1{
+    text-align: center;
+}
+.ayuda .pp1{
+    font-size: 20px;text-align: center;
+    max-width: none;
+}
+.ayuda .dudoso{
+    width: 484px;
+    height:  547px;
+}
+.ayuda .grid li{
+    font-size: 20px;
+    padding: 0 30px;
+    flex-basis: 33%;
+}
+.ayuda h2{
+    text-align: center;text-decoration: underline;
+}
 /*=======================================================================Estilos comunes para los Header*/
 header {
     position: absolute;
