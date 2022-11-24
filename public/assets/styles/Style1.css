@@ -101,6 +101,9 @@ ul.grid {
     padding: 20px 0;
     width: 475px;
 }
+.mapa-muestra p{
+    max-width: none;
+}
 .mapaimg{
     object-fit: contain;
     width: 687px;
@@ -159,6 +162,27 @@ ul.grid {
         flex-basis: 100%;
     }
 
+}
+/*=======================================================================PROTECCION Y SEGURIDAD*/
+.proteccion{
+    padding: 135px 0px;
+}
+.proteccion .p1{
+    text-align: center;
+
+}
+.proteccion .pp1{
+    font-size: 20px;text-align: center;
+    max-width: none;
+}
+.proteccion .policial{
+    width: 670px;
+    height:  353px;
+}
+.proteccion .grid li{
+    font-size: 20px;
+    padding: 0 30px;
+    flex-basis: 33%;
 }
 /*=======================================================================Estilos comunes para los Header*/
 header {
