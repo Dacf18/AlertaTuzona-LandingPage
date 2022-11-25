@@ -99,7 +99,7 @@ ul.grid {
 }
 .mapa-muestra h1{
     padding: 20px 0;
-    width: 475px;
+    max-width: none;
 }
 .mapa-muestra p{
     max-width: none;
@@ -184,6 +184,26 @@ ul.grid {
     padding: 0 30px;
     flex-basis: 33%;
 }
+@media (max-width: 1000px) {
+
+    .proteccion .grid li {
+        flex-basis: 70%;
+        margin-bottom: 65px;
+    }
+
+    .proteccion .grid li:last-child {
+        margin-bottom: 0;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .proteccion .grid li {
+        flex-basis: 100%;
+    }
+
+}
 /*===========================================================================COMO FUNCIONA*/
 .comofunciona{
     padding: 135px 0px;
@@ -203,6 +223,26 @@ ul.grid {
     font-size: 20px;
     padding: 0 30px;
     flex-basis: 33%;
+}
+@media (max-width: 1000px) {
+
+    .comofunciona .grid li {
+        flex-basis: 70%;
+        margin-bottom: 65px;
+    }
+
+    .comofunciona .grid li:last-child {
+        margin-bottom: 0;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .comofunciona .grid li {
+        flex-basis: 100%;
+    }
+
 }
 /*=======================================================================================AYUDA*/
 .ayuda{
@@ -231,6 +271,26 @@ ul.grid {
 .ayuda h2{
     text-align: center;text-decoration: underline;
 }
+@media (max-width: 1000px) {
+
+    .ayuda .grid li {
+        flex-basis: 70%;
+        margin-bottom: 65px;
+    }
+
+    .ayuda .grid li:last-child {
+        margin-bottom: 0;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .ayuda .grid li {
+        flex-basis: 100%;
+    }
+
+}
 /*=======================================================================================QUIENES SOMOS*/
 .quienessomos{
     padding: 135px 0px;
@@ -251,6 +311,26 @@ ul.grid {
 .quienessomos img{
     width: 536px;
     height:  272px;
+}
+@media (max-width: 1000px) {
+
+    .quienessomos,.presentacion .grid li {
+        flex-basis: 70%;
+        margin-bottom: 65px;
+    }
+
+    .quienessomos,.presentacion .grid li:last-child {
+        margin-bottom: 0;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .quienessomos,.presentacion .grid li {
+        flex-basis: 100%;
+    }
+
 }
 /*====================================integrante 1 diego cuadros*/
 .integrante1{
@@ -292,7 +372,7 @@ width: 230px;height: 307px;
     overflow: hidden;
 }
 .integrante2::after{
-    content: "jhonnatan pajuelo";
+    content: "Jhonnatan Pajuelo";
     font-size: 20px;
     color: white;
     background-color: darkred;
