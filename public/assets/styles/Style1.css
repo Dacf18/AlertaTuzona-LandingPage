@@ -252,13 +252,18 @@ ul.grid {
     width: 536px;
     height:  272px;
 }
-.integrante{
-    
-
+/*====================================integrante 1 diego cuadros*/
+.integrante1{
+width: 230px;height: 307px;
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    position: relative;
+    overflow: hidden;
 }
-.integrante::after{
-    content: "diego cuadros";
-    font-size: 10px;
+.integrante1::after{
+    content: "Diego Cuadros";
+    font-size: 20px;
     color: white;
     background-color: darkred;
     position: absolute;
@@ -269,7 +274,112 @@ ul.grid {
     transition: 0.4s;
     opacity: 80%;
 }
-.integrante:hover::after{
+.integrante1:hover::after{
+    transform: translateY(0);
+}
+.presentacion .grid li{
+    font-size: 20px;
+    padding: 20px 30px;
+    flex-basis: 33%;
+}
+/*====================================integrante 2 jhonnatan pajuelo*/
+.integrante2{
+    width: 230px;height: 307px;
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.integrante2::after{
+    content: "jhonnatan pajuelo";
+    font-size: 20px;
+    color: white;
+    background-color: darkred;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: 0.4s;
+    opacity: 80%;
+}
+.integrante2:hover::after{
+    transform: translateY(0);
+}
+/*====================================integrante 3 George Galvan*/
+.integrante3{
+    width: 230px;height: 307px;
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.integrante3::after{
+    content: "George Galvan";
+    font-size: 20px;
+    color: white;
+    background-color: darkred;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: 0.4s;
+    opacity: 80%;
+}
+.integrante3:hover::after{
+    transform: translateY(0);
+}
+/*====================================integrante 4 Jhordy Martinez*/
+.integrante4{
+    width: 230px;height: 307px;
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.integrante4::after{
+    content: "Jhordy Martinez";
+    font-size: 20px;
+    color: white;
+    background-color: darkred;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: 0.4s;
+    opacity: 80%;
+}
+.integrante4:hover::after{
+    transform: translateY(0);
+}
+/*====================================integrante 5 Antony Huicho*/
+.integrante5{
+    width: 230px;height: 307px;
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.integrante5::after{
+    content: "Antony Huicho";
+    font-size: 20px;
+    color: white;
+    background-color: darkred;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: 0.4s;
+    opacity: 80%;
+}
+.integrante5:hover::after{
     transform: translateY(0);
 }
 /*=======================================================================Estilos comunes para los Header*/
