@@ -231,6 +231,47 @@ ul.grid {
 .ayuda h2{
     text-align: center;text-decoration: underline;
 }
+/*=======================================================================================QUIENES SOMOS*/
+.quienessomos{
+    padding: 135px 0px;
+}
+.quienessomos,.presentacion .p1{
+
+    text-align: center;
+}
+.pp1{
+    max-width: none;
+}
+.quienessomos,.presentacion .pp1{
+    font-size: 20px;
+    text-align: center;
+    max-width: none;
+
+}
+.quienessomos img{
+    width: 536px;
+    height:  272px;
+}
+.integrante{
+    
+
+}
+.integrante::after{
+    content: "diego cuadros";
+    font-size: 10px;
+    color: white;
+    background-color: darkred;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: 0.4s;
+    opacity: 80%;
+}
+.integrante:hover::after{
+    transform: translateY(0);
+}
 /*=======================================================================Estilos comunes para los Header*/
 header {
     position: absolute;
